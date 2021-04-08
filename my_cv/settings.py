@@ -126,6 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    # BASE_DIR / "static",
-    '/home/cv/my_cv/static',
+    BASE_DIR / "my_profile/static/my_profile",
+
+    # '/home/cv/my_cv/static',
 ]
