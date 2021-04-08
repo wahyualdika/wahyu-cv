@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/aos.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/circle.css' %}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="{% static 'js/my_profile_script.js'%}"></script>
+
 
     <title>Profile</title>
   </head>
@@ -67,13 +67,14 @@
     </div>
 
 
-    <!-- <div class="button-next">
-        <a href='#content-skills'><div class="arrow-down">
+    <div class="button-back" id="button-back" onclick="topFunction()">
+        <a href='#'><div class="arrow-up" >
           <div class="icon">
-            <i class="fas fa-arrow-down"></i>
+            <i class="fas fa-arrow-up"></i>
           </div>
-        </div></a>
-    </div> -->
+        </div>
+        </a>
+    </div>
 
     <div class="content-skills" id="content-skills">
       <div class="title" id="title">
@@ -270,6 +271,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/b3160aeb67.js" crossorigin="anonymous"></script>
+    <script src="{% static 'js/my_profile_script.js'%}"></script>
     <script src="{% static 'js/aos.js'%}"></script>
     <script>
       AOS.init();
