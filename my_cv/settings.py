@@ -130,3 +130,5 @@ STATICFILES_DIRS = [
 
     # '/home/cv/my_cv/static',
 ]
+
+STATIC_ROOT =   BASE_DIR / "static"
