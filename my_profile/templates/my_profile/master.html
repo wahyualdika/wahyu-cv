@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    {% load static %}
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/my_profile.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/aos.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/circle.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="{% static 'js/my_profile_script.js'%}"></script>
+
+    <title>Profile</title>
+  </head>
+
+  <body class="background">
+    <div class="nav-conteiner" id="nav" onclick="nav_link_top(this.id)">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#content-about" id="about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#content-skills" id="skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#content-experience" id="experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#content-education" id="education">Education</a>
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div data-aos="zoom-in">
+      <div class="content-about" id="content-about">
+        <div class="title" id="title">
+          <h1>ABOUT</h1>
+        </div>
+        <div class="foto" id="foto">
+            <img src="https://drive.google.com/thumbnail?id=1OVbw9ebriPKWD5m3RXhWkmkvZ4UF-ON_" class="border border-danger" alt="profile image">
+        </div>
+        <div class="about" id="about">
+          <h3>Hai I'm <strong>Wahyu Alif Aldika</strong></h3>
+          <p>Web Backend Developer</p>
+          <hr>
+          <p>Address : Jl A Yani, Gg Keluarga, Kota Langsa, Aceh</p>
+          <p>Email   : aldika94wahyu@gmail.com</p>
+          <p>Phone   : 085272720630</p>
+        </div>
+        <div class="social-media-bar">
+          <div class="social-media-list">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+            <i class="far fa-envelope"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- <div class="button-next">
+        <a href='#content-skills'><div class="arrow-down">
+          <div class="icon">
+            <i class="fas fa-arrow-down"></i>
+          </div>
+        </div></a>
+    </div> -->
+
+    <div class="content-skills" id="content-skills">
+      <div class="title" id="title">
+        <h1>SKILLS</h1>
+      </div>
+      <div class="container">
+      <div data-aos="zoom-in">
+        <div class="row">
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="php-skill">
+                <i class="fab fa-php"></i>
+                <div class="c100 p75 dark">
+                  <span>75%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="python-skill">
+                <i class="fab fa-python"></i>
+                <div class="c100 p70 dark">
+                  <span>70%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="js-skill">
+                <i class="fab fa-js-square"></i>
+                <div class="c100 p65 dark">
+                  <span>65%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="zoom-in">
+        <div class="row">
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="mysql-skill">
+                <a href="https://icons8.com/icon/39858/mysql-logo"><img class="image-icon-mysql" src="https://img.icons8.com/ios/100/000000/mysql-logo.png"/></a>
+                <div class="c100 p80 dark">
+                  <span>80%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="laravel-skill">
+                <i class="fab fa-laravel"></i>
+                <div class="c100 p80 dark">
+                  <span>80%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skills" id="skills">
+              <div class="skill-icon-conteiner" id="django-skill">
+                <a href="https://icons8.com/icon/E2D_b34isGwh/django"><img class="image-icon-django" src="https://img.icons8.com/material-sharp/100/000000/django.png"/></a>
+                <div class="c100 p75 dark">
+                  <span>75%</span>
+                  <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="content-experience" id="content-experience">
+      <div class="title" id="title">
+        <h1>Experiences</h1>
+      </div>
+      <div class="container" id="experience">
+        <div data-aos="fade-up" data-aos-anchor=".content-experience">
+          <div class="row">
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/ppids.png' %}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">PPIDS Unsyiah</h5>
+                  <p class="card-text">Server Maintenance and Database Administrator</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">From : April 2018</li>
+                  <li class="list-group-item">To   : March 2020</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">ppids.cs.unsyiah.ac.id</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{% static 'images/bappeda.png' %}" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">UPTB PDGA Bappeda Provinsi Aceh</h5>
+                  <p class="card-text">Web Designer and Developer</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">From : May 2017</li>
+                  <li class="list-group-item">To   : December 2019</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">gisportal.acehprov.go.id</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-education" id="content-education">
+      <div class="title" id="title">
+        <h1>Education</h1>
+      </div>
+      <div class="timeline">
+      <div data-aos="fade-left">
+          <div class="container-education left">
+            <div class="date">2001 - 2006</div>
+            <i class="icon fas fa-school"></i>
+            <div class="content">
+              <h2>SDN 5 Langsa</h2>
+            </div>
+        </div>
+      </div>
+      <div data-aos="fade-right">
+        <div class="container-education right">
+          <div class="date">2007-2009</div>
+          <i class="icon fas fa-school"></i>
+          <div class="content">
+            <h2>SMPN 3 Langsa</h2>
+          </div>
+        </div>
+      </div>
+      <div data-aos="fade-left">
+          <div class="container-education left">
+            <div class="date">2010-2012</div>
+            <i class="icon fas fa-school"></i>
+            <div class="content">
+              <h2>SMAN 1 Langsa</h2>
+            </div>
+        </div>
+      </div>
+      <div data-aos="fade-right">
+        <div class="container-education right">
+          <div class="date">2012-2017</div>
+          <i class="icon fas fa-graduation-cap"></i>
+          <div class="content">
+            <h2>Universitas Syiah Kuala</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b3160aeb67.js" crossorigin="anonymous"></script>
+    <script src="{% static 'js/aos.js'%}"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
