@@ -112,6 +112,14 @@
     margin-right: 15px;
 }
 
+.social-media-list a{
+    color: black;
+}
+
+.social-media-list a:hover{
+    text-decoration: none;
+}
+
 .button-back{
     width: 20px;
     height: 20px;

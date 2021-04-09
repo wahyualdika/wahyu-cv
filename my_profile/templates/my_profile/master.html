@@ -55,12 +55,12 @@
         </div>
         <div class="social-media-bar">
           <div class="social-media-list">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-github"></i>
-            <i class="far fa-envelope"></i>
+            <a href="https://www.facebook.com/wahyu.alif.7" data-toggle="social_media" data-placement="top" title="My FaceBook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/aldika94wahyu" data-toggle="social_media" data-placement="top" title="My Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/wahyualifaldika/" data-toggle="social_media" data-placement="top" title="My Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/wahyu-alif-aldika-830547154/" data-toggle="social_media" data-placement="top" title="My LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/wahyualdika"><i class="fab fa-github" data-toggle="social_media" data-placement="top" title="My GitHub"></i></a>
+            <!-- <a href="#"><i class="far fa-envelope"></i></a> -->
           </div>
         </div>
       </div>
@@ -274,6 +274,11 @@
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="{% static 'my_profile/js/my_profile_script.js'%}"></script>
     <script src="{% static 'my_profile/js/aos.js'%}"></script>
+    <script>
+    $(function () {
+      $('[data-toggle="social_media"]').tooltip()
+    })
+    </script>
     <script>
     	 var scroll_nav_link = new SmoothScroll('.nav-link');
        var scroll_back_top = new SmoothScroll('.button-back');
